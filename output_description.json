@@ -1,0 +1,18 @@
+[
+  {
+    "observationId": "Id of the Observation entry",
+    "patientId": "Id of the Patient",
+    "performerId": "Id of the Practitioner who performed the Observation",
+    "measurementCoding": [
+      {
+        "system": "Measurement coding system Identifier",
+        "code": "Code from the Observation entry",
+        "display": "Text to display for the Observation"
+      }
+    ],
+    "measurementValue": "Value of the given Observation entry",
+    "measurementUnit": "Unit for the Observation's value",
+    "measurementDate": "Date when the Observation happened",
+    "dataFetched": "Current date when the mapping happened"
+  }
+]
