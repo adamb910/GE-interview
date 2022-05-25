@@ -85,16 +85,7 @@ def MapEntriesToObservations(content):
     print(failedMappings)
     return json.dumps(observations)
     
-        
-
-# Opening JSON file
-# f = open('input_observations.json')
-  
-# # returns JSON object as 
-# # a dictionary
-# data = json.load(f)
-# MapEntriesToObservations(data)
-  
+       
 @app.route('/remapentries',methods = ['POST', 'GET'])
 def MapEntriesToObservationsEndPoint():
     content = request.json
